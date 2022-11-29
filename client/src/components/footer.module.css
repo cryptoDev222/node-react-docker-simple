@@ -1,0 +1,16 @@
+.footer{
+  height: 60px;
+  width: 100vw;
+  background-color: #222;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footer p {
+  position: absolute;
+  right: 20px;
+  color: #aaa;
+}

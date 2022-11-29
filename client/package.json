@@ -1,0 +1,36 @@
+{
+  "name": "ui",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "^3.1.2"
+  },
+  "scripts": {
+    "start": "PORT=3500 react-scripts start",
+    "build": "PORT=3500 react-scripts build",
+    "test": "PORT=3500 react-scripts test --env=jsdom",
+    "eject": "PORT=3500 react-scripts eject"
+  },
+  "proxy": "http://server:3600",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "browserslist": "4.6.2",
+    "caniuse-lite": "1.0.30000974"
+  },
+  "devDependencies": {
+    "sass": "^1.23.7"
+  }
+}

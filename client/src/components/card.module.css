@@ -1,0 +1,12 @@
+.container {
+  border: 1px solid #ddd;
+  padding: 15px 32px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  max-width: fit-content;
+  white-space: nowrap;
+  word-break: break-all;
+  min-width: 450px;
+  max-width: 550px;
+  margin: 15px;
+}

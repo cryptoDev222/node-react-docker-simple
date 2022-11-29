@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+}
+
+.App-header {
+  width: 100vw;
+  position: fixed;
+  background-color: #222;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  top: 0;
+  color: white;
+  flex-flow: row-reverse;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin-right: 15px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.container{
+  min-height: calc(100vh - 170px);
+  margin-top: 60px;
+  padding: 25px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.contentWrapper {
+  margin-top: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul.myTab {
+  list-style: none;
+  display: inline-block;
+
+  & li {
+    display: inline-block;
+    padding: 12px 32px;
+    cursor: pointer;
+    color: black;
+
+    &:hover {
+      color: #33CCAE;
+    }
+
+    &.active {
+      border-bottom: 2px solid #33CCAE;
+      color: #33CCAE;
+    }
+  }
+}
+
+ul.skills {
+  list-style: none;
+  display: block;
+  width: fit-content;
+  margin: auto;
+  padding: 0;
+
+  &li {
+    display: block;
+    white-space: nowrap;
+  }
+}
+
+.numberShow {
+  font-size: 172px;
+  color: #ee3344;
+  flex-basis: 100%;
+}
+.mybtn {
+  color: white;
+  background-color: #33CCAE;
+  padding: 12px 24px;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 21px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #55DDCF;
+  }
+}
